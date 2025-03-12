@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .dropdown-nav{
+        display: none;
+    }
+    .dropdown-btn{
+        padding: 20px;
+        width: 100px;
+        border: none;
+        border-radius: 4px;
+        background-color: greenyellow;
+    }
+    .dropdown:hover .dropdown-btn{
+        background-color: blueviolet;
+    }
+    .dropdown:hover .dropdown-nav{
+       display: block;
+    }
+    .dropdown{
+        width:1000px;
+    }
+</style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropdown-btn">menu</button>
+        <ul class="dropdown-nav" type="none">
+            <li><a href="https://www.youtube.com/">Home</a></li>
+            <li><a href="https://www.gmail.com/">About</a></li>
+            <li><a href="https://www.linkedin.com/">services</a></li>
+            <li><a href="https://www.twitter.com/">gallery</a></li>
+            <li><a href="https://www.github.com/">contact</a></li>
+            <li><a href="https://www.yahoo.com/">carrers</a></li>
+        </ul>
+    </div>
+</body>
+</html>

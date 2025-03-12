@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset width="100">
+        <legend text-align="centre">register now</legend>
+   <form>
+    <label for="">Enter your name</label>
+    <input type="text" placeholder="enter your name" pattern="[a-zA-Z0-9]{6,10}" title="please enter 6-10 characters" required>
+    <br><br>
+    <label for="">Enter phone number</label>
+    <input type="text" placeholder="enter phone number">
+    <br><br>
+    <label for="">gender</label>
+    <input type="radio" name="gen" id="">male
+    <input type="radio" name="gen" id="">female
+    <input type="radio" name="gen" id="">others
+    <br><br>
+    <label for="">upload resume</label>
+    <input type="file">
+    <br><br>
+    <label for="">DOB</label>
+    <input type="datetime-local">
+    <br><br>
+    <label for="">fav matches</label>
+    <select name="" id="">
+        <option value="">csk</option>
+        <option value="">rcb</option>
+        <option value="">srh</option>
+        <option value="">gt</option>
+    </select>
+
+<br><br>
+    <label for="">cities</label>
+    <input list="city">
+    <datalist id="city">
+        <option value="vzm">vzm</option>
+        <option value="vizag">vizag</option>
+        <option value="sklm">sklm</option>
+    </datalist>
+    <br><br>
+    <input type="submit" name="" id="">
+   </form> 
+</fieldset>
+</body>
+</html>
