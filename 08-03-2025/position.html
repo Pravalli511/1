@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar2{
+            display: none;
+            position: absolute;
+            z-index: 6;
+            left: 250px;
+            background-color: grey;
+            padding: 10px;
+            /* margin-left: -30px; */
+        }
+        .h2:hover .navbar2
+        {
+            display: block;
+        }
+        .item2
+        {
+            list-style-type: none;
+            /* margin-left: -25px; */
+            text-decoration:none ;
+            margin-top: 10px;
+            width: 90px;
+        }
+        .link2
+        {
+            text-decoration:none ;
+            color: white;
+        }
+        
+        .h1{
+            display: inline;
+            margin-left: 20px;
+            text-decoration: none;  
+        }
+        .item{
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            
+        }
+        .main{
+            background-color: grey;
+            padding: 15px;
+          
+        }
+        .item1{
+            list-style-type: none;
+            /* padding: 10px; */
+            margin-left: -20px;
+            margin-top: 13px;
+            width: 90px;
+        }
+        .link1{
+            text-decoration: none;
+            color: white;          
+        }
+        .navbar4{
+            
+            display: none;
+            position: absolute;
+            z-index: 6;
+            left: 540px;
+            background-color: grey;
+            /* margin-left:-30px ; */
+            /* padding:15px; */
+        }
+        .h3:hover .navbar4
+        {
+            display: block;
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="main">
+        <ul class="navbar" type="none">
+            <li class="h1"><a class="item" href="">Home</a></li>
+            <li class="h1"><a class="item" href="">About</a></li>
+            <li class="h1 h2">
+                <a class="item" href="">services</a>
+                <ul class="navbar2">
+                    <li class="item2"><a class="link2" href="">full stack</a></li>
+                    <li class="item2"><a class="link2" href="">Data Science</a></li>
+                    <li class="item2"><a class="link2" href="">python</a></li>
+                    <li class="item2"><a class="link2" href="">java</a></li>
+                </ul>
+            </li>
+            <li class="h1"><a class="item" href="">gallery</a></li>
+            <li class="h1 ">
+                <a class="item" href="">contact</a>
+        </li>
+            <li class="h1 h3"><a class="item" href="">carrers</a>
+                <ul class="navbar4">
+                    <li class="item1"><a class="link1" href="">pravallika</a></li>
+                    <li class="item1"><a class="link1" href="">amrutha</a></li>
+                    <li class="item1"><a class="link1" href="">harika</a></li>
+                    <li class="item1"><a class="link1" href="">mounika</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

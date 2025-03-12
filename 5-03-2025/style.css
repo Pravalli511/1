@@ -1,0 +1,38 @@
+.navbar
+{
+    background-color: cadetblue;
+    padding: 15px;
+}
+a{
+    margin-left: 150px;
+}
+img{
+    width: 1000px;
+    height: 100px;
+}
+.img1
+{
+    width:"50" ;
+    height:"50";
+    margin-left: 300px;
+margin-top: -10px;
+}
+.img
+{
+    img
+    {
+        width:400px;
+        height: 280px;
+        margin-top: 50px;
+    }
+}
+td
+{
+    padding: 3px;
+    width: 550px;;
+    height: 8px;
+}
+table{
+    margin-top: 0px;
+    padding: 30px;
+}
